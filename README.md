@@ -1,16 +1,14 @@
-## Hi there 👋
+# 👋 Hi, I'm Tien
+Java Backend Developer
 
-<!--
-**quynhtiennn/quynhtiennn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🎬 Featured Project: Cineasy
+A movie ticket booking platform built with **Spring Boot, React, and PostgreSQL**.  
+- Backend: [cineasy-backend](https://github.com/quynhtiennn/cineasy-backend)  
+- Frontend: [cineasy-frontend](https://github.com/quynhtiennn/cineasy-frontend)  
+- Mail Service: [cineasy-mail-service](https://github.com/quynhtiennn/cineasy-mail-service)  
 
-Here are some ideas to get you started:
+### 🔧 Tech Stack
+Java | Spring Boot | RESTful APIs | PostgreSQL | React | Docker | Git
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📫 Connect with me: quynhtienbiy@gmail.com
+
