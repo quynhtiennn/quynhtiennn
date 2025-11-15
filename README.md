@@ -7,8 +7,5 @@ A movie ticket booking platform built with **Spring Boot, React, and PostgreSQL*
 - Frontend: [cineasy-frontend](https://github.com/quynhtiennn/cineasy-frontend)  
 - Mail Service: [cineasy-mail-service](https://github.com/quynhtiennn/cineasy-mail-service)  
 
-### 🔧 Tech Stack
-Java | Spring Boot | RESTful APIs | PostgreSQL | React | Docker | Git
-
 📫 Connect with me: quynhtienbiy@gmail.com
 
