@@ -5,7 +5,24 @@ Java Backend Developer
 A movie ticket booking platform built with **Spring Boot, React, and PostgreSQL**.  
 - Backend: [cineasy-backend](https://github.com/quynhtiennn/cineasy-backend)  
 - Frontend: [cineasy-frontend](https://github.com/quynhtiennn/cineasy-frontend)  
-- Mail Service: [cineasy-mail-service](https://github.com/quynhtiennn/cineasy-mail-service)  
+- Mail Service: [cineasy-mail-service](https://github.com/quynhtiennn/cineasy-mail-service)
+            ┌─────────────────────────────┐
+            │     cineasy-frontend        │
+            │  (Next.js + TypeScript)     │
+            └─────────────┬───────────────┘
+                          │ Calls REST APIs
+                          ▼
+            ┌─────────────────────────────┐
+            │      cineasy-backend        │
+            │  (Spring Boot + PostgreSQL) │
+            └─────────────┬───────────────┘
+                          │ Sends email requests
+                          ▼
+            ┌─────────────────────────────┐
+            │    cineasy-mail-service     │
+            │  (Spring Boot + MS Graph)   │
+            └─────────────────────────────┘
+
 
 📫 Connect with me: quynhtienbiy@gmail.com
 
