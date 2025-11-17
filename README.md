@@ -14,12 +14,11 @@ A movie ticket booking platform built with **Spring Boot, React, and PostgreSQL*
                 └─────────────┬────────────────┘
                               │ Calls REST APIs
                               ▼
-                ┌─────────────────────────────┐
-                │ Backend                     │
-                │ Spring Boot + PostgreSQL    │
-                │ Handles business logic      │
-                │ Users, Movies, Tickets      │
-                └─────────────┬───────────────┘
+                ┌─────────────────────────────┐                    ┌─────────────────────────┐
+                │ Backend                     │                    │ Database                │
+                │ Spring Boot                 │──────────────────► │ PostgreSQL              │
+                │ Handles business logic      │                    │ Stores data             │
+                └─────────────┬───────────────┘                    └─────────────────────────┘
                               │ Sends email requests
                               ▼
                 ┌─────────────────────────────┐
